@@ -1,0 +1,232 @@
+.ugo img{
+    width: 80px;
+    
+}
+.login{
+    border: 1px solid white !important;
+    padding: 7px 30px !important;
+    border-radius: 25px;
+}
+.login:hover{
+    border: 1px solid white !important;
+    padding: 7px 30px !important;
+    border-radius: 25px;
+    background-color: aqua;
+    color: white;
+}
+.b{
+    width: 100%;
+    height: 600px;
+    background-color: none;
+}
+.hero{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/shop.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.hero-text{
+    margin-top:220px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 80px;
+}
+.ab{
+    margin-top: 140px;
+    color: rgb(0, 0, 0);    
+}
+.ob{
+    margin-top: 70px;
+    color: blue;
+    border-radius: 20px;
+}
+
+.cart{
+    max-width: 35px;
+    height: 40px;
+}
+span{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+/*services begins*/
+.idi img{
+    width: 60%;
+    height: 60px;
+    border-radius: 50px;
+}
+.idi h4 a{
+    text-decoration: none;
+    color: blue;
+}
+.products {
+  background: #f8f9fa;
+}
+
+.card {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+.kiko{
+    color: blue;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:gainsboro;
+}
+
+.products{
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.products h2{
+    font-size: 2rem;
+    color: #0066ff;
+    margin-bottom: 40px;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card{
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin: 15px 0 10px;
+    color: #222;
+}
+
+.card p{
+    padding: 0 15px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #0066ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover{
+    background: #004ecc;
+}
+.maps .mapping{
+    box-shadow: 0 3px 3px 2px gainsboro;
+    padding: 20px;
+     border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+}
+.adaka{
+    height: 300px;
+    background-color: brown;
+}
+.mapping h4{
+    color: blue;
+}
+.fans{
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-bottom: 3px solid blue;
+    border-top: 3px solid blue;
+    padding: 20px;
+}
+.maky button{
+    border: 1px solid blue;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+.maky button:hover{
+    border: 1px solid blue;
+    margin-top: 20px;
+    background-color: white;
+    color: blue;
+}
+/*footer begins*/
+.footer h6{
+    color: blue;
+}
+.footer ul{
+    list-style: none;
+   padding-left: 0;
+}
+.footer ul li{
+padding: 3px 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+.footer ul li i{
+    font-size: 12px;
+    color: blue;
+    padding-right: 3px;
+}
+.bread{
+    padding-top: 80px;
+    
+}
+/* Container wrapper to group the input and icon */
+.search-wrapper {
+    display: flex;
+    align-items: center;
+}
+
